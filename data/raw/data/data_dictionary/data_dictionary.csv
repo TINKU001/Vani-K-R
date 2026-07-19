@@ -1,0 +1,15 @@
+Variable,Description,Data Type,Role,Values
+age,Age of the patient in years,Integer,Predictor,Numeric
+sex,Sex of the patient,Categorical,Predictor,0 = Female; 1 = Male
+cp,Chest pain type,Categorical,Predictor,1 = Typical angina; 2 = Atypical angina; 3 = Non-anginal pain; 4 = Asymptomatic
+trestbps,Resting blood pressure in mm Hg,Integer,Predictor,Numeric
+chol,Serum cholesterol in mg/dl,Integer,Predictor,Numeric
+fbs,Fasting blood sugar greater than 120 mg/dl,Binary,Predictor,0 = No; 1 = Yes
+restecg,Resting electrocardiographic results,Categorical,Predictor,0 = Normal; 1 = ST-T wave abnormality; 2 = Left ventricular hypertrophy
+thalach,Maximum heart rate achieved,Integer,Predictor,Numeric
+exang,Exercise-induced angina,Binary,Predictor,0 = No; 1 = Yes
+oldpeak,ST depression induced by exercise relative to rest,Continuous,Predictor,Numeric
+slope,Slope of peak exercise ST segment,Categorical,Predictor,1 = Upsloping; 2 = Flat; 3 = Downsloping
+ca,Number of major vessels colored by fluoroscopy,Integer,Predictor,0 to 3
+thal,Thalassemia-related measurement,Categorical,Predictor,Dataset-specific categories
+num,Heart disease diagnosis,Categorical,Target,0 = No disease; 1-4 = Presence of heart disease
